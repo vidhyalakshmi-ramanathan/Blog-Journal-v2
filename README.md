@@ -30,8 +30,7 @@
 </pre>
 
 ## Application Startup
-
-<p>When the application starts, <code>main.go</code>:</p>
+### When the application starts, <code>main.go</code>:
 - Loads environment variables.
 - Connects to PostgreSQL using GORM.
 - Runs database migrations using <code>AutoMigrate</code>.
@@ -73,33 +72,28 @@
 
 ### Setup
 
-
 <ol>
 <li>Clone the repository:</li>
 </ol>
 
-
 <pre><code>git clone &lt;repository-url&gt;
 cd &lt;project-directory&gt;</code></pre>
-
 
 <ol start="2">
 <li>Create a PostgreSQL database.</li>
 <li>Configure the environment variables.</li>
 </ol>
 
-ol start="4">
+<ol start="4">
 <li>Install dependencies:</li>
 </ol>
 
 <pre><code>go mod tidy</code></pre>
 
-
 <ol start="5">
 <li>Start PostgreSQL.</li>
 <li>Run the backend:</li>
 </ol>
-
 
 <pre><code>go run main.go</code></pre>
 
