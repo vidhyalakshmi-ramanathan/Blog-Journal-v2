@@ -30,7 +30,7 @@
 </pre>
 
 ## Application Startup
-### When the application starts, <code>main.go</code>:
+### when the application starts, <code>main.go</code>:
 - Loads environment variables.
 - Connects to PostgreSQL using GORM.
 - Runs database migrations using <code>AutoMigrate</code>.
@@ -82,9 +82,6 @@ cd &lt;project-directory&gt;</code></pre>
 <ol start="2">
 <li>Create a PostgreSQL database.</li>
 <li>Configure the environment variables.</li>
-</ol>
-
-<ol start="4">
 <li>Install dependencies:</li>
 </ol>
 
